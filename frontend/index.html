@@ -1,13 +1,104 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="http://127.0.0.1:1000/assets_client/images/favicon/4.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <title>Fastkart</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap css -->
+  <link id="rtl-link" rel="stylesheet" type="text/css"
+    href="http://127.0.0.1:1000/assets_client/css/vendors/bootstrap.css">
+
+  <!-- wow css -->
+  <link rel="stylesheet" href="http://127.0.0.1:1000/assets_client/css/animate.min.css" />
+
+  <!-- font-awesome css -->
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/vendors/font-awesome.css">
+
+  <!-- feather icon css -->
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/vendors/feather-icon.css">
+
+  <!-- slick css -->
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/vendors/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/vendors/slick/slick-theme.css">
+
+  <!-- Iconly css -->
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/bulk-style.css">
+
+  <!-- Template css -->
+  <link id="color-link" rel="stylesheet" type="text/css" href="http://127.0.0.1:1000/assets_client/css/style.css">
+</head>
+
+<body class="theme-color-2 bg-effect">
+  <div id="root"></div>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Check if the URL contains "admin"
+
+  if (window.location.href.indexOf("/") > -1) {
+    // Admin URL, include all the scripts
+    var scriptUrls = [
+      "http://127.0.0.1:1000/assets_client/js/jquery-3.6.0.min.js",
+      "http://127.0.0.1:1000/assets_client/js/jquery-ui.min.js",
+      "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap.bundle.min.js",
+      "http://127.0.0.1:1000/assets_client/js/bootstrap/popper.min.js",
+      "http://127.0.0.1:1000/assets_client/js/feather/feather.min.js",
+      "http://127.0.0.1:1000/assets_client/js/feather/feather-icon.js",
+      "http://127.0.0.1:1000/assets_client/js/lazysizes.min.js",
+      "http://127.0.0.1:1000/assets_client/js/slick/slick.js",
+      "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap-notify.min.js",
+      "http://127.0.0.1:1000/assets_client/js/slick/custom_slick.js",
+      "http://127.0.0.1:1000/assets_client/js/auto-height.js",
+      "http://127.0.0.1:1000/assets_client/js/quantity.js",
+      "http://127.0.0.1:1000/assets_client/js/timer1.js",
+      "http://127.0.0.1:1000/assets_client/js/timer2.js",
+      "http://127.0.0.1:1000/assets_client/js/timer3.js",
+      "http://127.0.0.1:1000/assets_client/js/timer4.js",
+      "http://127.0.0.1:1000/assets_client/js/fly-cart.js",
+      "http://127.0.0.1:1000/assets_client/js/wow.min.js",
+      "http://127.0.0.1:1000/assets_client/js/apexchart.js",
+      "http://127.0.0.1:1000/assets_client/js/custom-wow.js",
+      "http://127.0.0.1:1000/assets_client/js/script.js",
+      "http://127.0.0.1:1000/assets_client/js/custom-chart.js",
+      "http://127.0.0.1:1000/assets_client/js/theme-setting.js"
+    ];
+
+    scriptUrls.forEach(function (url) {
+      var script = document.createElement('script');
+      script.src = url;
+      document.body.appendChild(script);
+    });
+  } else {
+    // Non-admin URL, include only the bootstrap/popper scripts
+    var bootstrapScript = document.createElement('script');
+    bootstrapScript.src = "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap.bundle.min.js";
+    document.body.appendChild(bootstrapScript);
+
+    var popperScript = document.createElement('script');
+    popperScript.src = "http://127.0.0.1:1000/assets_client/js/bootstrap/popper.min.js";
+    document.body.appendChild(popperScript);
+  }
+</script>
+
 </html>
