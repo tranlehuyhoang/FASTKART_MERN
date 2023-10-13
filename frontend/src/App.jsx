@@ -7,6 +7,7 @@ import LoginScreen from './screens/LoginScreen.jsx'
 import CartScreen from './screens/CartScreen.jsx'
 import CheckoutScreen from './screens/CheckoutScreen.jsx'
 import ProfieScreen from './screens/ProfieScreen.jsx'
+import ProductScreen from './screens/ProductScreen.jsx'
 import InvoiceScreen from './screens/InvoiceScreen.jsx'
 import OrderSuccessScreen from './screens/OrderSuccessScreen.jsx';
 
@@ -40,6 +41,9 @@ function App() {
           } />
           <Route path="/order-success" element={
             <OrderSuccessScreen />
+          } />
+          <Route path="/product" element={
+            <ProductScreen />
           } />
 
         </Routes>
