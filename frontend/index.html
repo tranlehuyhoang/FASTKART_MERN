@@ -8,7 +8,22 @@
   <title>Fastkart</title>
   <script>
     // Check if the URL contains "admin"
-    if (window.location.href.indexOf("/") > -1) {
+    if (window.location.href.indexOf("invoice") > -1) {
+      var StyleUrl = [
+
+        "http://127.0.0.1:1000/invoice.css"
+      ];
+      StyleUrl.forEach(function (url) {
+        if (url) {
+          var link = document.createElement('link');
+          link.href = url;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          document.head.appendChild(link);
+        }
+      });
+
+    } else {
       var StyleUrls = [
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
         "https://fonts.googleapis.com/css2?family=Russo+One&display=swap",
