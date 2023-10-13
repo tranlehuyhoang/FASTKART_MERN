@@ -7,11 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fastkart</title>
   <script>
-    // Check if the URL contains "admin"
+    // Check if the URL contains "invoice"
     if (window.location.href.indexOf("invoice") > -1) {
       var StyleUrl = [
 
         "http://127.0.0.1:1000/invoice.css"
+      ];
+      StyleUrl.forEach(function (url) {
+        if (url) {
+          var link = document.createElement('link');
+          link.href = url;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          document.head.appendChild(link);
+        }
+      });
+
+    } else {
+
+    }
+    if (window.location.href.indexOf("admin") > -1) {
+      var StyleUrl = [
+        "https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/bootstrap.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+        "http://127.0.0.1:1000/assets_admin/css/style.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css",
+        "http://127.0.0.1:1000/assets_admin/css/linearicon.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/font-awesome.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/themify.css",
+        "http://127.0.0.1:1000/assets_admin/css/ratio.css",
+        "http://127.0.0.1:1000/assets_admin/css/remixicon.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/feather-icon.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/scrollbar.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/animate.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/animate.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/bootstrap.css",
+        "http://127.0.0.1:1000/assets_admin/css/vector-map.css",
+        "http://127.0.0.1:1000/assets_admin/css/vendors/slick.css",
+        "http://127.0.0.1:1000/assets_admin/css/style.css",
       ];
       StyleUrl.forEach(function (url) {
         if (url) {
@@ -48,6 +82,10 @@
         }
       });
     }
+
+
+
+
   </script>
 </head>
 
@@ -55,46 +93,80 @@
   <div id="root"></div>
   <script src=""></script>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+
+
+    if (window.location.href.indexOf("admin") > -1) {
+      var scriptUrls = [
+        "http://127.0.0.1:1000/assets_admin/js/jquery-3.6.0.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/bootstrap/bootstrap.bundle.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/icons/feather-icon/feather.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/icons/feather-icon/feather-icon.js",
+        "http://127.0.0.1:1000/assets_admin/js/scrollbar/simplebar.js",
+        "http://127.0.0.1:1000/assets_admin/js/scrollbar/custom.js",
+        "http://127.0.0.1:1000/assets_admin/js/config.js",
+        "http://127.0.0.1:1000/assets_admin/js/tooltip-init.js",
+        "http://127.0.0.1:1000/assets_admin/js/sidebar-menu.js",
+        "http://127.0.0.1:1000/assets_admin/js/notify/bootstrap-notify.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/notify/bootstrap-notify.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/notify/index.js",
+        "http://127.0.0.1:1000/assets_admin/js/chart/apex-chart/apex-chart1.js",
+        "http://127.0.0.1:1000/assets_admin/js/chart/apex-chart/moment.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/chart/apex-chart/apex-chart.js",
+        "http://127.0.0.1:1000/assets_admin/js/chart/apex-chart/stock-prices.js",
+        "http://127.0.0.1:1000/assets_admin/js/chart/apex-chart/chart-custom1.js",
+        "http://127.0.0.1:1000/assets_admin/js/slick.min.js",
+        "http://127.0.0.1:1000/assets_admin/js/custom-slick.js",
+        "http://127.0.0.1:1000/assets_admin/js/customizer.js",
+        "http://127.0.0.1:1000/assets_admin/js/ratio.js",
+        "http://127.0.0.1:1000/assets_admin/js/sidebareffect.js",
+        "http://127.0.0.1:1000/assets_admin/js/sidebareffect.js"
+      ];
+
+      scriptUrls.forEach(function (url) {
+        var script = document.createElement('script');
+        script.src = url;
+        document.body.appendChild(script);
+      });
+
+    } else {
+      var scriptUrls = [
+        "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js",
+        "http://127.0.0.1:1000/assets_client/js/jquery-3.6.0.min.js",
+        "http://127.0.0.1:1000/assets_client/js/jquery-ui.min.js",
+        "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap.bundle.min.js",
+        "http://127.0.0.1:1000/assets_client/js/bootstrap/popper.min.js",
+        "http://127.0.0.1:1000/assets_client/js/feather/feather.min.js",
+        "http://127.0.0.1:1000/assets_client/js/feather/feather-icon.js",
+        "http://127.0.0.1:1000/assets_client/js/lazysizes.min.js",
+        "http://127.0.0.1:1000/assets_client/js/slick/slick.js",
+        "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap-notify.min.js",
+        "http://127.0.0.1:1000/assets_client/js/slick/custom_slick.js",
+        "http://127.0.0.1:1000/assets_client/js/auto-height.js",
+        "http://127.0.0.1:1000/assets_client/js/quantity.js",
+        "http://127.0.0.1:1000/assets_client/js/timer1.js",
+        "http://127.0.0.1:1000/assets_client/js/timer2.js",
+        "http://127.0.0.1:1000/assets_client/js/timer3.js",
+        "http://127.0.0.1:1000/assets_client/js/timer4.js",
+        "http://127.0.0.1:1000/assets_client/js/fly-cart.js",
+        "http://127.0.0.1:1000/assets_client/js/wow.min.js",
+        "http://127.0.0.1:1000/assets_client/js/apexchart.js",
+        "http://127.0.0.1:1000/assets_client/js/custom-wow.js",
+        "http://127.0.0.1:1000/assets_client/js/script.js",
+        "http://127.0.0.1:1000/assets_client/js/custom-chart.js",
+        "http://127.0.0.1:1000/assets_client/js/theme-setting.js"
+      ];
+
+      scriptUrls.forEach(function (url) {
+        var script = document.createElement('script');
+        script.src = url;
+        document.body.appendChild(script);
+      });
+
+    }
+
+  </script>
 </body>
-<script>
-  if (window.location.href.indexOf("/") > -1) {
-    var scriptUrls = [
-      "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js",
-      "http://127.0.0.1:1000/assets_client/js/jquery-3.6.0.min.js",
-      "http://127.0.0.1:1000/assets_client/js/jquery-ui.min.js",
-      "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap.bundle.min.js",
-      "http://127.0.0.1:1000/assets_client/js/bootstrap/popper.min.js",
-      "http://127.0.0.1:1000/assets_client/js/feather/feather.min.js",
-      "http://127.0.0.1:1000/assets_client/js/feather/feather-icon.js",
-      "http://127.0.0.1:1000/assets_client/js/lazysizes.min.js",
-      "http://127.0.0.1:1000/assets_client/js/slick/slick.js",
-      "http://127.0.0.1:1000/assets_client/js/bootstrap/bootstrap-notify.min.js",
-      "http://127.0.0.1:1000/assets_client/js/slick/custom_slick.js",
-      "http://127.0.0.1:1000/assets_client/js/auto-height.js",
-      "http://127.0.0.1:1000/assets_client/js/quantity.js",
-      "http://127.0.0.1:1000/assets_client/js/timer1.js",
-      "http://127.0.0.1:1000/assets_client/js/timer2.js",
-      "http://127.0.0.1:1000/assets_client/js/timer3.js",
-      "http://127.0.0.1:1000/assets_client/js/timer4.js",
-      "http://127.0.0.1:1000/assets_client/js/fly-cart.js",
-      "http://127.0.0.1:1000/assets_client/js/wow.min.js",
-      "http://127.0.0.1:1000/assets_client/js/apexchart.js",
-      "http://127.0.0.1:1000/assets_client/js/custom-wow.js",
-      "http://127.0.0.1:1000/assets_client/js/script.js",
-      "http://127.0.0.1:1000/assets_client/js/custom-chart.js",
-      "http://127.0.0.1:1000/assets_client/js/theme-setting.js"
-    ];
 
-    scriptUrls.forEach(function (url) {
-      var script = document.createElement('script');
-      script.src = url;
-      document.body.appendChild(script);
-    });
-
-
-  } else {
-
-  }
-</script>
 
 </html>
