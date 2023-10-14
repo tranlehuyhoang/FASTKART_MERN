@@ -43,7 +43,7 @@ const InvoiceScreen = () => {
                                                 style={{ display: "block", textAlign: "left" }}
                                             >
                                                 <img
-                                                    src="http://127.0.0.1:1000/assets_client/logo.png"
+                                                    src="assets_client/logo.png"
                                                     className="main-logo"
                                                     alt="logo"
                                                 />
@@ -64,7 +64,7 @@ const InvoiceScreen = () => {
                                     <tr>
                                         <td>
                                             <img
-                                                src="http://127.0.0.1:1000/assets_client/order-success-poster.png"
+                                                src="assets_client/order-success-poster.png"
                                                 alt=""
                                                 style={{ width: "100%", height: "100%" }}
                                             />
@@ -239,9 +239,9 @@ const InvoiceScreen = () => {
                                                                 borderBottom: "1px solid rgba(217, 217, 217, 0.5)"
                                                             }}
                                                         >
-                                                            <a href="http://127.0.0.1:1000/product/16">
+                                                            <a href="product/16">
                                                                 <img
-                                                                    src="http://127.0.0.1:1000/images/1696159512_10.png"
+                                                                    src="images/1696159512_10.png"
                                                                     alt=""
                                                                     style={{ height: 80 }}
                                                                 />
@@ -271,9 +271,9 @@ const InvoiceScreen = () => {
                                                                 borderBottom: "1px solid rgba(217, 217, 217, 0.5)"
                                                             }}
                                                         >
-                                                            <a href="http://127.0.0.1:1000/product/17">
+                                                            <a href="product/17">
                                                                 <img
-                                                                    src="http://127.0.0.1:1000/images/1696159516_11.png"
+                                                                    src="images/1696159516_11.png"
                                                                     alt=""
                                                                     style={{ height: 80 }}
                                                                 />
@@ -432,7 +432,7 @@ const InvoiceScreen = () => {
                                 className="order-table"
                                 style={{
                                     backgroundImage:
-                                        "url(http://127.0.0.1:1000/assets_client/order-poster.jpg)"
+                                        "url(assets_client/order-poster.jpg)"
                                 }}
                             >
                                 <tbody>

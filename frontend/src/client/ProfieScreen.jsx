@@ -43,7 +43,7 @@ const ProfieScreen = () => {
                                 <div className="profile-box">
                                     <div className="cover-image">
                                         <img
-                                            src="http://127.0.0.1:1000/assets_client/images/inner-page/cover-img.jpg"
+                                            src="assets_client/images/inner-page/cover-img.jpg"
                                             className="img-fluid blur-up lazyloaded"
                                             alt=""
                                         />
@@ -52,7 +52,7 @@ const ProfieScreen = () => {
                                         <div className="profile-image">
                                             <div className="position-relative">
                                                 <img
-                                                    src="http://127.0.0.1:1000/assets_client/images/inner-page/user/1.jpg"
+                                                    src="assets_client/images/inner-page/user/1.jpg"
                                                     className="blur-up update_img lazyloaded"
                                                     alt=""
                                                 />
@@ -296,7 +296,7 @@ const ProfieScreen = () => {
                                                 <h2>My Dashboard</h2>
                                                 <span className="title-leaf">
                                                     <svg className="icon-width bg-gray">
-                                                        <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                        <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                     </svg>
                                                 </span>
                                             </div>
@@ -316,12 +316,12 @@ const ProfieScreen = () => {
                                                     <div className="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
                                                         <div className="totle-contain">
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/order.svg"
+                                                                src="assets_client/images/svg/order.svg"
                                                                 className="img-1 blur-up lazyloaded"
                                                                 alt=""
                                                             />
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/order.svg"
+                                                                src="assets_client/images/svg/order.svg"
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
                                                             />
@@ -334,12 +334,12 @@ const ProfieScreen = () => {
                                                     <div className="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
                                                         <div className="totle-contain">
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/pending.svg"
+                                                                src="assets_client/images/svg/pending.svg"
                                                                 className="img-1 blur-up lazyloaded"
                                                                 alt=""
                                                             />
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/pending.svg"
+                                                                src="assets_client/images/svg/pending.svg"
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
                                                             />
@@ -352,12 +352,12 @@ const ProfieScreen = () => {
                                                     <div className="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
                                                         <div className="totle-contain">
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/wishlist.svg"
+                                                                src="assets_client/images/svg/wishlist.svg"
                                                                 className="img-1 blur-up lazyloaded"
                                                                 alt=""
                                                             />
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/svg/wishlist.svg"
+                                                                src="assets_client/images/svg/wishlist.svg"
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
                                                             />
@@ -475,7 +475,7 @@ const ProfieScreen = () => {
                                                 <h2>My Wishlist History</h2>
                                                 <span className="title-leaf title-leaf-gray">
                                                     <svg className="icon-width bg-gray">
-                                                        <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                        <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                     </svg>
                                                 </span>
                                             </div>
@@ -486,7 +486,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/2.png"
+                                                                        src="assets_client/images/cake/product/2.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -583,7 +583,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/3.png"
+                                                                        src="assets_client/images/cake/product/3.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -680,7 +680,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/4.png"
+                                                                        src="assets_client/images/cake/product/4.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -781,7 +781,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/5.png"
+                                                                        src="assets_client/images/cake/product/5.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -879,7 +879,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/6.png"
+                                                                        src="assets_client/images/cake/product/6.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -978,7 +978,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/7.png"
+                                                                        src="assets_client/images/cake/product/7.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -1076,7 +1076,7 @@ const ProfieScreen = () => {
                                                             <div className="product-image">
                                                                 <a href="product-left-thumbnail.html">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/cake/product/2.png"
+                                                                        src="assets_client/images/cake/product/2.png"
                                                                         className="img-fluid blur-up lazyload"
                                                                         alt=""
                                                                     />
@@ -1182,7 +1182,7 @@ const ProfieScreen = () => {
                                                 <h2>My Orders History</h2>
                                                 <span className="title-leaf title-leaf-gray">
                                                     <svg className="icon-width bg-gray">
-                                                        <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                        <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                     </svg>
                                                 </span>
                                             </div>
@@ -1208,7 +1208,7 @@ const ProfieScreen = () => {
                                                             </svg>
                                                         </div>
                                                         <div className="order-detail">
-                                                            <a href="http://127.0.0.1:1000/invoice/4404449596209624">
+                                                            <a href="invoice/4404449596209624">
                                                                 <h4>
                                                                     #4404449596209624{" "}
                                                                     <span className="success-bg">Đã thanh toán</span>
@@ -1226,7 +1226,7 @@ const ProfieScreen = () => {
                                                             className="order-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/box.png"
+                                                                src="assets_client/box.png"
                                                                 style={{ width: 200 }}
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
@@ -1374,7 +1374,7 @@ const ProfieScreen = () => {
                                                             </svg>
                                                         </div>
                                                         <div className="order-detail">
-                                                            <a href="http://127.0.0.1:1000/order-success/4509968953132206">
+                                                            <a href="order-success/4509968953132206">
                                                                 <h4>
                                                                     #4509968953132206 <span>Chưa thanh toán</span>
                                                                 </h4>
@@ -1391,7 +1391,7 @@ const ProfieScreen = () => {
                                                             className="order-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/box.png"
+                                                                src="assets_client/box.png"
                                                                 style={{ width: 200 }}
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
@@ -1539,7 +1539,7 @@ const ProfieScreen = () => {
                                                             </svg>
                                                         </div>
                                                         <div className="order-detail">
-                                                            <a href="http://127.0.0.1:1000/invoice/9661749379549302">
+                                                            <a href="invoice/9661749379549302">
                                                                 <h4>
                                                                     #9661749379549302{" "}
                                                                     <span className="success-bg">Đã thanh toán</span>
@@ -1557,7 +1557,7 @@ const ProfieScreen = () => {
                                                             className="order-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/box.png"
+                                                                src="assets_client/box.png"
                                                                 style={{ width: 200 }}
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
@@ -1705,7 +1705,7 @@ const ProfieScreen = () => {
                                                             </svg>
                                                         </div>
                                                         <div className="order-detail">
-                                                            <a href="http://127.0.0.1:1000/invoice/3943572294038977">
+                                                            <a href="invoice/3943572294038977">
                                                                 <h4>
                                                                     #3943572294038977{" "}
                                                                     <span className="success-bg">Đã thanh toán</span>
@@ -1723,7 +1723,7 @@ const ProfieScreen = () => {
                                                             className="order-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/box.png"
+                                                                src="assets_client/box.png"
                                                                 style={{ width: 200 }}
                                                                 className="blur-up lazyloaded"
                                                                 alt=""
@@ -1871,7 +1871,7 @@ const ProfieScreen = () => {
                                                             </svg>
                                                         </div>
                                                         <div className="order-detail">
-                                                            <a href="http://127.0.0.1:1000/invoice/0925455986098349">
+                                                            <a href="invoice/0925455986098349">
                                                                 <h4>
                                                                     #0925455986098349{" "}
                                                                     <span className="success-bg">Đã thanh toán</span>
@@ -1889,7 +1889,7 @@ const ProfieScreen = () => {
                                                             className="order-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/box.png"
+                                                                src="assets_client/box.png"
                                                                 style={{ width: 200 }}
                                                                 className="blur-up lazyload"
                                                                 alt=""
@@ -2031,7 +2031,7 @@ const ProfieScreen = () => {
                                                     <h2>My Address Book</h2>
                                                     <span className="title-leaf">
                                                         <svg className="icon-width bg-gray">
-                                                            <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                            <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -2524,7 +2524,7 @@ const ProfieScreen = () => {
                                                     <h2>My Card Details</h2>
                                                     <span className="title-leaf">
                                                         <svg className="icon-width bg-gray">
-                                                            <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                            <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                         </svg>
                                                     </span>
                                                 </div>
@@ -2578,7 +2578,7 @@ const ProfieScreen = () => {
                                                                 </div>
                                                                 <div className="card-img">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/payment-icon/1.jpg"
+                                                                        src="assets_client/images/payment-icon/1.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -2643,7 +2643,7 @@ const ProfieScreen = () => {
                                                                 </div>
                                                                 <div className="card-img">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/payment-icon/2.jpg"
+                                                                        src="assets_client/images/payment-icon/2.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -2708,7 +2708,7 @@ const ProfieScreen = () => {
                                                                 </div>
                                                                 <div className="card-img">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/payment-icon/3.jpg"
+                                                                        src="assets_client/images/payment-icon/3.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -2761,7 +2761,7 @@ const ProfieScreen = () => {
                                                 <h2>My Profile</h2>
                                                 <span className="title-leaf">
                                                     <svg className="icon-width bg-gray">
-                                                        <use xlinkHref="http://127.0.0.1:1000/assets_client/svg/leaf.svg#leaf" />
+                                                        <use xlinkHref="assets_client/svg/leaf.svg#leaf" />
                                                     </svg>
                                                 </span>
                                             </div>
@@ -3011,7 +3011,7 @@ const ProfieScreen = () => {
                                                     <div className="col-xxl-5">
                                                         <div className="profile-image">
                                                             <img
-                                                                src="http://127.0.0.1:1000/assets_client/images/inner-page/dashboard-profile.png"
+                                                                src="assets_client/images/inner-page/dashboard-profile.png"
                                                                 className="img-fluid blur-up lazyload"
                                                                 alt=""
                                                             />

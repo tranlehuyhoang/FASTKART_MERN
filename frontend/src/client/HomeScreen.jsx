@@ -82,9 +82,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/8">
+                                            <a href="product/8">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159447_2.png"
+                                                    src="images/1696159447_2.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -246,9 +246,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/6">
+                                            <a href="product/6">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159332_1.png"
+                                                    src="images/1696159332_1.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -419,9 +419,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/6">
+                                            <a href="product/6">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159332_1.png"
+                                                    src="images/1696159332_1.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -583,9 +583,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/8">
+                                            <a href="product/8">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159447_2.png"
+                                                    src="images/1696159447_2.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -757,9 +757,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/11">
+                                            <a href="product/11">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159481_5.png"
+                                                    src="images/1696159481_5.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -921,9 +921,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/12">
+                                            <a href="product/12">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159488_6.png"
+                                                    src="images/1696159488_6.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -1095,9 +1095,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/15">
+                                            <a href="product/15">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159508_9.png"
+                                                    src="images/1696159508_9.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />
@@ -1259,9 +1259,9 @@ function HomeScreen() {
                                                     <i className="iconly-Heart icli" />
                                                 </button>
                                             </div>
-                                            <a href="http://127.0.0.1:1000/product/16">
+                                            <a href="product/16">
                                                 <img
-                                                    src="http://127.0.0.1:1000/images/1696159512_10.png"
+                                                    src="images/1696159512_10.png"
                                                     className="img-fluid"
                                                     alt=""
                                                 />

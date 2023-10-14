@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="col-xxl-3 col-xl-4 col-sm-6">
                             <a href="index.html" className="foot-logo">
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/logo/3.png"
+                                    src=" logo/3.png"
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -50,7 +50,7 @@ const Footer = () => {
                                     <li>
                                         <a href="https://play.google.com/store/apps"  >
                                             <img
-                                                src=" http://127.0.0.1:1000/assets_client/images/playstore.svg"
+                                                src=" playstore.svg"
                                                 className="blur-up lazyloaded"
                                                 alt=""
                                             />
@@ -59,7 +59,7 @@ const Footer = () => {
                                     <li>
                                         <a href="https://www.apple.com/in/app-store/"  >
                                             <img
-                                                src=" http://127.0.0.1:1000/assets_client/images/appstore.svg"
+                                                src=" appstore.svg"
                                                 className="blur-up lazyloaded"
                                                 alt=""
                                             />
@@ -284,31 +284,31 @@ const Footer = () => {
                         <ul className="payment-box">
                             <li>
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/icon/paymant/visa.png"
+                                    src=" icon/paymant/visa.png"
                                     alt=""
                                 />
                             </li>
                             <li>
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/icon/paymant/discover.png"
+                                    src=" icon/paymant/discover.png"
                                     alt=""
                                 />
                             </li>
                             <li>
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/icon/paymant/american.png"
+                                    src=" icon/paymant/american.png"
                                     alt=""
                                 />
                             </li>
                             <li>
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/icon/paymant/master-card.png"
+                                    src=" icon/paymant/master-card.png"
                                     alt=""
                                 />
                             </li>
                             <li>
                                 <img
-                                    src=" http://127.0.0.1:1000/assets_client/images/icon/paymant/giro-pay.png"
+                                    src=" icon/paymant/giro-pay.png"
                                     alt=""
                                 />
                             </li>

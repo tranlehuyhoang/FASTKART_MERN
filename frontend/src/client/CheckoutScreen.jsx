@@ -706,7 +706,7 @@ const CheckoutScreen = () => {
                                     <ul className="summery-contain">
                                         <li>
                                             <img
-                                                src="http://127.0.0.1:1000/images/1696159520_12.png"
+                                                src="images/1696159520_12.png"
                                                 className="img-fluid blur-up lazyloaded checkout-image"
                                                 alt=""
                                             />
@@ -766,7 +766,7 @@ const CheckoutScreen = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <form action="http://127.0.0.1:1000/checkout/create" method="post">
+                                <form action="checkout/create" method="post">
                                     <input
                                         type="hidden"
                                         name="_token"

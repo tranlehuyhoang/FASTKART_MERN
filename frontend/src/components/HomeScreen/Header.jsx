@@ -161,7 +161,7 @@ const Header = () => {
                                                     id="english"
                                                 >
                                                     <img
-                                                        src=" http://127.0.0.1:1000/assets_client/images/country/united-kingdom.png"
+                                                        src=" country/united-kingdom.png"
                                                         className="img-fluid blur-up lazyload"
                                                         alt=""
                                                     />
@@ -175,7 +175,7 @@ const Header = () => {
                                                     id="france"
                                                 >
                                                     <img
-                                                        src=" http://127.0.0.1:1000/assets_client/images/country/germany.png"
+                                                        src=" country/germany.png"
                                                         className="img-fluid blur-up lazyload"
                                                         alt=""
                                                     />
@@ -189,7 +189,7 @@ const Header = () => {
                                                     id="chinese"
                                                 >
                                                     <img
-                                                        src=" http://127.0.0.1:1000/assets_client/images/country/turkish.png"
+                                                        src=" country/turkish.png"
                                                         className="img-fluid blur-up lazyload"
                                                         alt=""
                                                     />
@@ -266,7 +266,7 @@ const Header = () => {
                                 </button>
                                 <a href="http://127.0.0.1:1000" className="web-logo nav-logo">
                                     <img
-                                        src=" http://127.0.0.1:1000/assets_client/images/logo/1.png"
+                                        src=" logo/1.png"
                                         className="img-fluid blur-up lazyloaded"
                                         alt=""
                                     />
@@ -477,7 +477,7 @@ const Header = () => {
                                                                     className="drop-image"
                                                                 >
                                                                     <img
-                                                                        src=" http://127.0.0.1:1000/assets_client/images/vegetable/product/1.png"
+                                                                        src=" vegetable/product/1.png"
                                                                         className="blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -502,7 +502,7 @@ const Header = () => {
                                                                     className="drop-image"
                                                                 >
                                                                     <img
-                                                                        src=" http://127.0.0.1:1000/assets_client/images/vegetable/product/2.png"
+                                                                        src=" vegetable/product/2.png"
                                                                         className="blur-up lazyloaded"
                                                                         alt=""
                                                                     />

@@ -116,7 +116,7 @@ const OrderSuccessScreen = () => {
                                                             className="product-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/images/1696159512_10.png"
+                                                                src="images/1696159512_10.png"
                                                                 className="img-fluid blur-up lazyloaded"
                                                                 alt=""
                                                             />
@@ -180,7 +180,7 @@ const OrderSuccessScreen = () => {
                                         </ul>
                                         <form
                                             className="summery-total"
-                                            action="http://127.0.0.1:1000/checkout/re_payment"
+                                            action="checkout/re_payment"
                                             method="post"
                                         >
                                             <input

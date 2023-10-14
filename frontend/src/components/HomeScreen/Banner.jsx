@@ -9,7 +9,7 @@ const Banner = () => {
                         <div
                             className="home-contain h-100 bg-size blur-up lazyloaded"
                             style={{
-                                backgroundImage: 'url("http://127.0.0.1:1000/assets_client/images/veg-3/home/1.png")',
+                                backgroundImage: 'url("assets_client/images/veg-3/home/1.png")',
                                 backgroundSize: "cover",
                                 backgroundPosition: "center center",
                                 backgroundRepeat: "no-repeat",
@@ -17,7 +17,7 @@ const Banner = () => {
                             }}
                         >
                             <img
-                                src="http://127.0.0.1:1000/assets_client/images/veg-3/home/1.png"
+                                src="assets_client/images/veg-3/home/1.png"
                                 className="img-fluid bg-img blur-up lazyloaded"
                                 alt=""
                                 style={{ display: "none" }}
@@ -45,7 +45,7 @@ const Banner = () => {
                             <div
                                 className="h-100 bg-size blur-up lazyloaded"
                                 style={{
-                                    backgroundImage: 'url("http://127.0.0.1:1000/assets_client/images/veg-3/home/2.png")',
+                                    backgroundImage: 'url("assets_client/images/veg-3/home/2.png")',
                                     backgroundSize: "cover",
                                     backgroundPosition: "center center",
                                     backgroundRepeat: "no-repeat",
@@ -53,7 +53,7 @@ const Banner = () => {
                                 }}
                             >
                                 <img
-                                    src="http://127.0.0.1:1000/assets_client/images/veg-3/home/2.png"
+                                    src="assets_client/images/veg-3/home/2.png"
                                     className="img-fluid bg-img blur-up lazyloaded"
                                     alt=""
                                     style={{ display: "none" }}
@@ -82,7 +82,7 @@ const Banner = () => {
                                         className="bg-size blur-up lazyloaded"
                                         style={{
                                             backgroundImage:
-                                                'url("http://127.0.0.1:1000/assets_client/images/veg-3/home/3.png")',
+                                                'url("assets_client/images/veg-3/home/3.png")',
                                             backgroundSize: "cover",
                                             backgroundPosition: "center center",
                                             backgroundRepeat: "no-repeat",
@@ -90,7 +90,7 @@ const Banner = () => {
                                         }}
                                     >
                                         <img
-                                            src="http://127.0.0.1:1000/assets_client/images/veg-3/home/3.png"
+                                            src="assets_client/images/veg-3/home/3.png"
                                             className="img-fluid bg-img blur-up lazyloaded"
                                             alt=""
                                             style={{ display: "none" }}
@@ -111,7 +111,7 @@ const Banner = () => {
                                         className="bg-size blur-up lazyloaded"
                                         style={{
                                             backgroundImage:
-                                                'url("http://127.0.0.1:1000/assets_client/images/veg-3/home/4.png")',
+                                                'url("assets_client/images/veg-3/home/4.png")',
                                             backgroundSize: "cover",
                                             backgroundPosition: "center center",
                                             backgroundRepeat: "no-repeat",
@@ -119,7 +119,7 @@ const Banner = () => {
                                         }}
                                     >
                                         <img
-                                            src="http://127.0.0.1:1000/assets_client/images/veg-3/home/4.png"
+                                            src="assets_client/images/veg-3/home/4.png"
                                             className="img-fluid bg-img blur-up lazyloaded"
                                             alt=""
                                             style={{ display: "none" }}

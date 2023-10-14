@@ -33,7 +33,7 @@ const LoginScreen = () => {
                         <div className="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ms-auto">
                             <div className="image-contain">
                                 <img
-                                    src="http://127.0.0.1:1000/assets_client/images/inner-page/log-in.png"
+                                    src="assets_client/images/inner-page/log-in.png"
                                     className="img-fluid"
                                     alt=""
                                 />
@@ -118,7 +118,7 @@ const LoginScreen = () => {
                                                 className="btn google-button w-100"
                                             >
                                                 <img
-                                                    src="http://127.0.0.1:1000/assets_client/images/inner-page/google.png"
+                                                    src="assets_client/images/inner-page/google.png"
                                                     className="blur-up lazyloaded"
                                                     alt=""
                                                 />
@@ -131,7 +131,7 @@ const LoginScreen = () => {
                                                 className="btn google-button w-100"
                                             >
                                                 <img
-                                                    src="http://127.0.0.1:1000/assets_client/images/inner-page/facebook.png"
+                                                    src="assets_client/images/inner-page/facebook.png"
                                                     className="blur-up lazyloaded"
                                                     alt=""
                                                 />

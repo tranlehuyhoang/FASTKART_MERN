@@ -45,7 +45,7 @@ const CartScreen = () => {
                                                             className="product-image"
                                                         >
                                                             <img
-                                                                src="http://127.0.0.1:1000/images/1696159520_12.png"
+                                                                src="images/1696159520_12.png"
                                                                 className="img-fluid blur-up lazyloaded"
                                                                 alt=""
                                                             />

@@ -65,9 +65,9 @@ const ProductScreen = () => {
                                                                 <div className="slider-image">
                                                                     <img
                                                                         style={{ width: "70%" }}
-                                                                        src="http://127.0.0.1:1000/images/1696159488_6.png"
+                                                                        src="images/1696159488_6.png"
                                                                         id="img-1"
-                                                                        data-zoom-image="http://127.0.0.1:1000/images/1696159488_6.png"
+                                                                        data-zoom-image="images/1696159488_6.png"
                                                                         className="img-fluid image_zoom_cls-0 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -89,8 +89,8 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="slider-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/2.jpg"
-                                                                        data-zoom-image="http://127.0.0.1:1000/assets_client/images/product/category/2.jpg"
+                                                                        src="assets_client/images/product/category/2.jpg"
+                                                                        data-zoom-image="assets_client/images/product/category/2.jpg"
                                                                         className="img-fluid image_zoom_cls-1 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -112,8 +112,8 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="slider-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/3.jpg"
-                                                                        data-zoom-image="http://127.0.0.1:1000/assets_client/images/product/category/3.jpg"
+                                                                        src="assets_client/images/product/category/3.jpg"
+                                                                        data-zoom-image="assets_client/images/product/category/3.jpg"
                                                                         className="img-fluid image_zoom_cls-2 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -135,8 +135,8 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="slider-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/4.jpg"
-                                                                        data-zoom-image="http://127.0.0.1:1000/assets_client/images/product/category/4.jpg"
+                                                                        src="assets_client/images/product/category/4.jpg"
+                                                                        data-zoom-image="assets_client/images/product/category/4.jpg"
                                                                         className="img-fluid image_zoom_cls-3 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -158,8 +158,8 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="slider-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/5.jpg"
-                                                                        data-zoom-image="http://127.0.0.1:1000/assets_client/images/product/category/5.jpg"
+                                                                        src="assets_client/images/product/category/5.jpg"
+                                                                        data-zoom-image="assets_client/images/product/category/5.jpg"
                                                                         className="img-fluid image_zoom_cls-4 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -181,8 +181,8 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="slider-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/6.jpg"
-                                                                        data-zoom-image="http://127.0.0.1:1000/assets_client/images/product/category/6.jpg"
+                                                                        src="assets_client/images/product/category/6.jpg"
+                                                                        data-zoom-image="assets_client/images/product/category/6.jpg"
                                                                         className="img-fluid image_zoom_cls-5 blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -224,7 +224,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/3.jpg"
+                                                                        src="assets_client/images/product/category/3.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -240,7 +240,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/4.jpg"
+                                                                        src="assets_client/images/product/category/4.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -256,7 +256,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/5.jpg"
+                                                                        src="assets_client/images/product/category/5.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -272,7 +272,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/6.jpg"
+                                                                        src="assets_client/images/product/category/6.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -287,7 +287,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/images/1696159488_6.png"
+                                                                        src="images/1696159488_6.png"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -302,7 +302,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/2.jpg"
+                                                                        src="assets_client/images/product/category/2.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -317,7 +317,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/3.jpg"
+                                                                        src="assets_client/images/product/category/3.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -332,7 +332,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/4.jpg"
+                                                                        src="assets_client/images/product/category/4.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -347,7 +347,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/5.jpg"
+                                                                        src="assets_client/images/product/category/5.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -362,7 +362,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/6.jpg"
+                                                                        src="assets_client/images/product/category/6.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -378,7 +378,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/images/1696159488_6.png"
+                                                                        src="images/1696159488_6.png"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -394,7 +394,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/2.jpg"
+                                                                        src="assets_client/images/product/category/2.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -410,7 +410,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/3.jpg"
+                                                                        src="assets_client/images/product/category/3.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -426,7 +426,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/4.jpg"
+                                                                        src="assets_client/images/product/category/4.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -442,7 +442,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/5.jpg"
+                                                                        src="assets_client/images/product/category/5.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -458,7 +458,7 @@ const ProductScreen = () => {
                                                             >
                                                                 <div className="sidebar-image">
                                                                     <img
-                                                                        src="http://127.0.0.1:1000/assets_client/images/product/category/6.jpg"
+                                                                        src="assets_client/images/product/category/6.jpg"
                                                                         className="img-fluid blur-up lazyloaded"
                                                                         alt=""
                                                                     />
@@ -646,7 +646,7 @@ const ProductScreen = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <form action="http://127.0.0.1:1000/cart/create" method="POST">
+                                        <form action="cart/create" method="POST">
                                             <input
                                                 type="hidden"
                                                 name="_token"
@@ -772,7 +772,7 @@ const ProductScreen = () => {
                                                 <li>
                                                     <a href="javascript:void(0)">
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/product/payment/1.svg"
+                                                            src="assets_client/images/product/payment/1.svg"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -781,7 +781,7 @@ const ProductScreen = () => {
                                                 <li>
                                                     <a href="javascript:void(0)">
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/product/payment/2.svg"
+                                                            src="assets_client/images/product/payment/2.svg"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -790,7 +790,7 @@ const ProductScreen = () => {
                                                 <li>
                                                     <a href="javascript:void(0)">
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/product/payment/3.svg"
+                                                            src="assets_client/images/product/payment/3.svg"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -799,7 +799,7 @@ const ProductScreen = () => {
                                                 <li>
                                                     <a href="javascript:void(0)">
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/product/payment/4.svg"
+                                                            src="assets_client/images/product/payment/4.svg"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -808,7 +808,7 @@ const ProductScreen = () => {
                                                 <li>
                                                     <a href="javascript:void(0)">
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/product/payment/5.svg"
+                                                            src="assets_client/images/product/payment/5.svg"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -927,7 +927,7 @@ const ProductScreen = () => {
                                                         className="banner-contain nav-desh bg-size blur-up lazyloaded"
                                                         style={{
                                                             backgroundImage:
-                                                                'url("http://127.0.0.1:1000/assets_client/images/vegetable/banner/14.jpg")',
+                                                                'url("assets_client/images/vegetable/banner/14.jpg")',
                                                             backgroundSize: "cover",
                                                             backgroundPosition: "center center",
                                                             backgroundRepeat: "no-repeat",
@@ -935,7 +935,7 @@ const ProductScreen = () => {
                                                         }}
                                                     >
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/banner/14.jpg"
+                                                            src="assets_client/images/vegetable/banner/14.jpg"
                                                             className="bg-img blur-up lazyload"
                                                             alt=""
                                                             style={{ display: "none" }}
@@ -1247,7 +1247,7 @@ const ProductScreen = () => {
                                                         </div>
                                                         <div className="col-xl-6">
                                                             <form
-                                                                action="http://127.0.0.1:1000/review/create"
+                                                                action="review/create"
                                                                 method="post"
                                                             >
                                                                 <input
@@ -1373,7 +1373,7 @@ const ProductScreen = () => {
                                                                             <div>
                                                                                 <div className="people-image">
                                                                                     <img
-                                                                                        src="http://127.0.0.1:1000/assets_client/images/review/2.jpg"
+                                                                                        src="assets_client/images/review/2.jpg"
                                                                                         className="img-fluid blur-up lazyloaded"
                                                                                         alt=""
                                                                                     />
@@ -1490,7 +1490,7 @@ const ProductScreen = () => {
                                                                             <div>
                                                                                 <div className="people-image">
                                                                                     <img
-                                                                                        src="http://127.0.0.1:1000/assets_client/images/review/3.jpg"
+                                                                                        src="assets_client/images/review/3.jpg"
                                                                                         className="img-fluid blur-up lazyloaded"
                                                                                         alt=""
                                                                                     />
@@ -1625,7 +1625,7 @@ const ProductScreen = () => {
                                     <div className="verndor-contain">
                                         <div className="vendor-image">
                                             <img
-                                                src="http://127.0.0.1:1000/assets_client/images/product/vendor.png"
+                                                src="assets_client/images/product/vendor.png"
                                                 className="blur-up lazyloaded"
                                                 alt=""
                                             />
@@ -1786,7 +1786,7 @@ const ProductScreen = () => {
                                                         className="offer-image"
                                                     >
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/product/23.png"
+                                                            src="assets_client/images/vegetable/product/23.png"
                                                             className="img-fluid blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -1809,7 +1809,7 @@ const ProductScreen = () => {
                                                         className="offer-image"
                                                     >
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/product/24.png"
+                                                            src="assets_client/images/vegetable/product/24.png"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -1834,7 +1834,7 @@ const ProductScreen = () => {
                                                         className="offer-image"
                                                     >
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/product/25.png"
+                                                            src="assets_client/images/vegetable/product/25.png"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -1857,7 +1857,7 @@ const ProductScreen = () => {
                                                         className="offer-image"
                                                     >
                                                         <img
-                                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/product/26.png"
+                                                            src="assets_client/images/vegetable/product/26.png"
                                                             className="blur-up lazyloaded"
                                                             alt=""
                                                         />
@@ -1882,7 +1882,7 @@ const ProductScreen = () => {
                                         className="home-contain bg-size blur-up lazyloaded"
                                         style={{
                                             backgroundImage:
-                                                'url("http://127.0.0.1:1000/assets_client/images/vegetable/banner/8.jpg")',
+                                                'url("assets_client/images/vegetable/banner/8.jpg")',
                                             backgroundSize: "cover",
                                             backgroundPosition: "center center",
                                             backgroundRepeat: "no-repeat",
@@ -1890,7 +1890,7 @@ const ProductScreen = () => {
                                         }}
                                     >
                                         <img
-                                            src="http://127.0.0.1:1000/assets_client/images/vegetable/banner/8.jpg"
+                                            src="assets_client/images/vegetable/banner/8.jpg"
                                             className="bg-img blur-up lazyload"
                                             alt=""
                                             style={{ display: "none" }}
