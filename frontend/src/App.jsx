@@ -1,15 +1,15 @@
 
 
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
-import HomeScreen from './client/HomeScreen.jsx'
-import RegisterScreen from './client/RegisterScreen.jsx'
-import LoginScreen from './client/LoginScreen.jsx'
-import CartScreen from './client/CartScreen.jsx'
-import CheckoutScreen from './client/CheckoutScreen.jsx'
-import ProfileScreen from './client/ProfieScreen.jsx'
-import ProductScreen from './client/ProductScreen.jsx'
-import InvoiceScreen from './client/InvoiceScreen.jsx'
-import OrderSuccessScreen from './client/OrderSuccessScreen.jsx';
+import HomeScreen from './screen/HomeScreen.jsx'
+import RegisterScreen from './screen/RegisterScreen.jsx'
+import LoginScreen from './screen/LoginScreen.jsx'
+import CartScreen from './screen/CartScreen.jsx'
+import CheckoutScreen from './screen/CheckoutScreen.jsx'
+import ProfileScreen from './screen/ProfieScreen.jsx'
+import ProductScreen from './screen/ProductScreen.jsx'
+import InvoiceScreen from './screen/InvoiceScreen.jsx'
+import OrderSuccessScreen from './screen/OrderSuccessScreen.jsx';
 import LoginAdminScreen from './admin/LoginAdminScreen.jsx';
 import DashboardScreen from './admin/DashboardScreen.jsx';
 
