@@ -110,7 +110,7 @@ const LoginAdminScreen = () => {
                                                 src="../public/assets_admin/images/inner-page/facebook.png"
                                                 className="blur-up lazyload"
                                                 alt=""
-                                            />{" "}
+                                            />
                                             Log In with Facebook
                                         </a>
                                     </li>

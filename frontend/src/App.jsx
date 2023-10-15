@@ -10,8 +10,7 @@ import ProfileScreen from './screen/ProfieScreen.jsx'
 import ProductScreen from './screen/ProductScreen.jsx'
 import InvoiceScreen from './screen/InvoiceScreen.jsx'
 import OrderSuccessScreen from './screen/OrderSuccessScreen.jsx';
-import LoginAdminScreen from './admin/LoginAdminScreen.jsx';
-import DashboardScreen from './admin/DashboardScreen.jsx';
+
 
 function App() {
 
@@ -29,8 +28,7 @@ function App() {
           <Route path="/invoice" element={<InvoiceScreen />} />
           <Route path="/order-success" element={<OrderSuccessScreen />} />
           <Route path="/product" element={<ProductScreen />} />
-          <Route path="/admin" element={<DashboardScreen />} />
-          <Route path="/admin/login" element={<LoginAdminScreen />} />
+
 
         </Routes>
       </BrowserRouter>
