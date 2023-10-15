@@ -1,0 +1,110 @@
+body {
+    text-align      : center;
+    margin          : 0 auto;
+    width           : 650px;
+    font-family     : 'Public Sans', sans-serif;
+    background-color: #e2e2e2;
+    display         : block;
+}
+
+ul {
+    margin : 0;
+    padding: 0;
+}
+
+li {
+    display        : inline-block;
+    text-decoration: unset;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    margin: 10px;
+    color : #777;
+}
+
+.text-center {
+    text-align: center
+}
+
+.main-bg-light {
+    background-color: #fafafa;
+}
+
+.header-menu ul li a {
+    font-size  : 14px;
+    color      : #252525;
+    font-weight: 500;
+}
+
+.product-table tbody tr td img {
+    /* width: 86%; */
+    margin-right: 26px;
+}
+
+.product-table tbody tr td .product-detail {
+    text-align: left;
+    display   : flex;
+    flex-wrap : wrap;
+    gap       : 7px;
+}
+
+.product-table tbody tr td .product-detail li {
+    display    : block;
+    width      : 100%;
+    font-size  : 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.product-table tbody tr td .product-detail li span {
+    color: #939393;
+}
+
+.order-table {
+
+    background-position: center;
+    background-repeat  : no-repeat;
+    border-radius      : 5px;
+    overflow           : hidden;
+    padding            : 18px 27px;
+    margin-top         : 40px;
+}
+
+.footer-table {
+    position  : relative;
+    margin-top: 34px;
+}
+
+.footer-table::before {
+    position           : absolute;
+    content            : "";
+    background-image   : url(.//footer-left.svg);
+    background-position: top right;
+    top                : 0;
+    left               : -71%;
+    width              : 100%;
+    height             : 100%;
+    background-repeat  : no-repeat;
+    z-index            : -1;
+    background-size    : contain;
+    opacity            : 0.3;
+}
+
+.footer-table::after {
+    position           : absolute;
+    content            : "";
+    background-image   : url(./footer-right.svg);
+    background-position: top right;
+    top                : 0;
+    right              : 0;
+    width              : 100%;
+    height             : 100%;
+    background-repeat  : no-repeat;
+    z-index            : -1;
+    background-size    : contain;
+    opacity            : 0.3;
+}

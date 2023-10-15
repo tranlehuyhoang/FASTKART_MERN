@@ -1,191 +1,77 @@
-import React from 'react'
+
 
 const CreateCategoryScreen = () => {
     return (
         <div className="page-body">
-            {/* All User Table Start */}
+            {/* New Product Add Start */}
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-12">
-                        <div className="card card-table">
-                            <div className="card-body">
-                                <div className="title-header option-title">
-                                    <h5>All Category</h5>
-                                    <form className="d-inline-flex">
-                                        <a
-                                            href="add-new-category.html"
-                                            className="align-items-center btn btn-theme d-flex"
-                                            data-bs-original-title=""
-                                            title=""
+                    <div className="col-12">
+                        <div className="row">
+                            <div className="col-sm-8 m-auto">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="card-header-2">
+                                            <h5>Category Information</h5>
+                                        </div>
+                                        <form
+                                            className="theme-form theme-form-2 mega-form"
+                                            method="POST"
+                                            action=""
+                                            encType="multipart/form-data"
                                         >
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width={24}
-                                                height={24}
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth={2}
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                className="feather feather-plus-square"
+                                            <input
+                                                type="hidden"
+                                                name="_token"
+                                                defaultValue="IjlXCCKF9soniAQd9wZ3xXCpwSfgtKbM0Q4i33vy"
+                                                autoComplete="off"
+                                                data-bs-original-title=""
+                                                title=""
+                                            />
+                                            <div className="mb-4 row align-items-center">
+                                                <label className="form-label-title col-sm-3 mb-0">
+                                                    Category Name
+                                                </label>
+                                                <div className="col-sm-9">
+                                                    <input
+                                                        className="form-control"
+                                                        type="text"
+                                                        name="name"
+                                                        placeholder="Category Name"
+                                                        data-bs-original-title=""
+                                                        title=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="mb-4 row align-items-center">
+                                                <label className="col-sm-3 col-form-label form-label-title">
+                                                    Category Image
+                                                </label>
+                                                <div className="form-group col-sm-9">
+                                                    <div className="dropzone-wrapper">
+                                                        <div className="dropzone-desc">
+                                                            <i className="ri-upload-2-line" />
+                                                            <p>Choose an image file or drag it here.</p>
+                                                        </div>
+                                                        <input
+                                                            type="file"
+                                                            name="image"
+                                                            className="dropzone"
+                                                            data-bs-original-title=""
+                                                            title=""
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button
+                                                type="submit"
+                                                className="btn btn-primary ms-auto mt-4"
+                                                data-bs-original-title=""
+                                                title=""
                                             >
-                                                <rect x={3} y={3} width={18} height={18} rx={2} ry={2} />
-                                                <line x1={12} y1={8} x2={12} y2={16} />
-                                                <line x1={8} y1={12} x2={16} y2={12} />
-                                            </svg>
-                                            Add New
-                                        </a>
-                                    </form>
-                                </div>
-                                <div className="table-responsive category-table">
-                                    <div>
-                                        <table className="table all-package theme-table" id="table_id">
-                                            <thead>
-                                                <tr>
-                                                    <th>Category Name</th>
-                                                    <th>Category Image</th>
-                                                    <th>Option</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>rau củ 2</td>
-                                                    <td>
-                                                        <div className="table-image">
-                                                            <img
-                                                                src="../public/images/1696151259_product-5.png"
-                                                                className="img-fluid"
-                                                                alt=""
-                                                            />
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <ul>
-                                                            <li>
-                                                                <a
-                                                                    href="order-detail.html"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-eye-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-pencil-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-toggle="modal"
-                                                                    data-bs-target="#exampleModalToggle"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-delete-bin-line" />
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>rau củ</td>
-                                                    <td>
-                                                        <div className="table-image">
-                                                            <img
-                                                                src="../public/images/1696151242_product-5.png"
-                                                                className="img-fluid"
-                                                                alt=""
-                                                            />
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <ul>
-                                                            <li>
-                                                                <a
-                                                                    href="order-detail.html"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-eye-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-pencil-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-toggle="modal"
-                                                                    data-bs-target="#exampleModalToggle"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-delete-bin-line" />
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>rau củ1</td>
-                                                    <td>
-                                                        <div className="table-image">
-                                                            <img
-                                                                src="../public/images/1696151097_product-5.png"
-                                                                className="img-fluid"
-                                                                alt=""
-                                                            />
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <ul>
-                                                            <li>
-                                                                <a
-                                                                    href="order-detail.html"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-eye-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-pencil-line" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a
-                                                                    href="javascript:void(0)"
-                                                                    data-bs-toggle="modal"
-                                                                    data-bs-target="#exampleModalToggle"
-                                                                    data-bs-original-title=""
-                                                                    title=""
-                                                                >
-                                                                    <i className="ri-delete-bin-line" />
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                                Save
+                                            </button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -193,9 +79,9 @@ const CreateCategoryScreen = () => {
                     </div>
                 </div>
             </div>
-            {/* All User Table Ends*/}
+            {/* New Product Add End */}
+            {/* footer Start */}
             <div className="container-fluid">
-                {/* footer start*/}
                 <footer className="footer">
                     <div className="row">
                         <div className="col-md-12 footer-copyright text-center">
@@ -203,9 +89,10 @@ const CreateCategoryScreen = () => {
                         </div>
                     </div>
                 </footer>
-                {/* footer end*/}
             </div>
+            {/* footer En */}
         </div>
+
 
 
     )

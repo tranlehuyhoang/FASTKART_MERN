@@ -33,7 +33,7 @@ const ProductScreen = () => {
                                             <li>
                                                 <a
                                                     className="btn btn-solid"
-                                                    href="add-new-product.html"
+                                                    href="./product/create"
                                                     data-bs-original-title=""
                                                     title=""
                                                 >

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const CategoryScreen = () => {
     return (
@@ -13,7 +13,7 @@ const CategoryScreen = () => {
                                     <h5>All Category</h5>
                                     <form className="d-inline-flex">
                                         <a
-                                            href="add-new-category.html"
+                                            href="./category/create"
                                             className="align-items-center btn btn-theme d-flex"
                                             data-bs-original-title=""
                                             title=""
